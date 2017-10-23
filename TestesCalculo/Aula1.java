@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 public class Aula1 {
-  private WebDriver driver = new FirefoxDriver();
+  private WebDriver driver = new ChromeDriver();
   private String baseUrl;
   private StringBuffer verificationErrors = new StringBuffer();
   
