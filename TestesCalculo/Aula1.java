@@ -10,9 +10,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-
 public class Aula1 {
-  private WebDriver driver = new ChromeDriver();
+  private WebDriver driver = new FirefoxDriver();
   private String baseUrl;
   private StringBuffer verificationErrors = new StringBuffer();
   
