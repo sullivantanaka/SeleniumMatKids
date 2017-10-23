@@ -13,17 +13,19 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.MalformedURLException;
 
-
 public class Aula1_grid {
+  private StringBuffer verificationErrors = new StringBuffer();
   private WebDriver driver;
   private String baseUrl;
+  /* Configurar os ips, portas e afins de acordo com a configuração do grid
   private String nodeAll = "http://192.168.163.1:5555/wd/hub"; //grid node All
   private String nodeChrome = "http://192.168.163.1:5556/wd/hub"; //grid node Chrome
   private String nodeFirefox = "http://192.168.163.1:5557/wd/hub"; //grid node Firefox
-  private String nodeUrl = "http://192.168.163.1:5555/wd/hub"; //grid node generico
-  private StringBuffer verificationErrors = new StringBuffer();
+  */
   
-  //parametros do grid
+  private String nodeUrl = "http://192.168.163.1:5555/wd/hub"; //grid node generico para efeito de estudos
+  
+  //definição de qual navegador utilizar
   //DesiredCapabilities caps = DesiredCapabilities.chrome();
   DesiredCapabilities caps = DesiredCapabilities.firefox();
 
