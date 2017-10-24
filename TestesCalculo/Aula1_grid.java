@@ -23,7 +23,7 @@ public class Aula1_grid {
   private String nodeFirefox = "http://192.168.163.1:5557/wd/hub"; //grid node Firefox
   */
   
-  private String nodeUrl = "http://192.168.163.1:5555/wd/hub"; //grid node generico para efeito de estudos
+  private String nodeUrl = "http://192.168.163.1:5557/wd/hub"; //grid node generico para efeito de estudos
   
   //definição de qual navegador utilizar
   //DesiredCapabilities caps = DesiredCapabilities.chrome();
