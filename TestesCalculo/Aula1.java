@@ -1,17 +1,18 @@
 package TestesCalculo;
 
 import java.io.File;
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.junit.*;
 import static org.junit.Assert.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.firefox.*;
+import org.openqa.selenium.ie.*;
 
 public class Aula1 {
   private WebDriver driver = new FirefoxDriver();
+  //private WebDriver driver = new InternetExplorerDriver(); //ATENCAO: Para automatizar em IE, desabilitar a opção "Protected Mode" em Security. Não esqueça de ativar após seus testes!!!
   private String baseUrl;
   private StringBuffer verificationErrors = new StringBuffer();
   
